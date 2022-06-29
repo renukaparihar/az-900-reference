@@ -1,0 +1,35 @@
+Azure Security Center is a best practice analyzer for Azure resources and on-premises resources.
+
+Security Center covers three primary areas: policy and compliance, resource security hygiene, and threat protection.
+
+Just-in-time VM access can restrict VM remote desktop access to certain networks and certain times of day.
+
+Azure Key Vault provides a secure way to store secrets, keys, and certificates.
+
+Azure Key Vault Premium tier stores keys in hardware security modules (HSMs), making it FIPS 140-2–compliant.
+
+Azure Sentinel is a solution for implementing SOAR and SIEM in an environment.
+
+Sentinel can help watch for security threats in Azure, other clouds, and on-premises.
+
+Sentinel can take an action on a security alert using Playbooks, and Playbooks are built on top of Azure Logic Apps.
+
+Azure Dedicated Host allows you to host your VMs on a dedicated host computer.
+
+Azure Dedicated Host uses a host group to contain the dedicated host computers running your VMs.
+
+Defense in depth is also often called the “castle approach” because it represents multi-layered security strategies.
+
+Network Security Groups (NSGs) are rules that allow you to filter traffic on a network and control that traffic.
+
+NSG rules have a priority between 100 and 4,096, and rules with a lower priority number take precedence.
+
+Azure Firewall denies all traffic into specific subnets unless a rule is configured to allow that traffic.
+
+Azure Firewall is a stateful firewall that “remembers” the state of connections. This allows it to recognize malicious traffic that might otherwise seem normal.
+
+Azure DDoS Protection comes in two tiers: Basic and Standard.
+
+Basic is free and refers to the DDoS protection that Microsoft has in place to prevent Azure from being impacted by DDoS attacks.
+
+Standard can be used alongside Azure Application Gateway.
