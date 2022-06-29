@@ -1,0 +1,73 @@
+The Internet of Things (IoT) refers to devices with sensors that communicate with each other and with the Internet.
+
+Azure IoT Hub allows you to manage IoT devices and route messages to and from those devices.
+
+Azure IoT Hub Provisioning Service makes it easy to provision a large number of devices into IoT Hub.
+
+Azure IoT Central is a SaaS offering for monitoring IoT devices.
+
+Azure Sphere is a service for securing IoT devices.
+
+Azure Sphere is composed of the Azure Sphere MCU, the Azure Sphere OS, and the Azure Sphere Security Service.
+
+Big data refers to more data that you can analyze through conventional means within a desired timeframe.
+
+Azure Synapse is the replacement for SQL Data Warehouse.
+
+Azure Synapse stores big data and also provides for data analysis in a cluster.
+
+An Azure Synapse cluster consists of Synapse SQL, Apache Spark integration, data integration of Apache Spark and Azure Data Lake Storage, and a web-based user interface called Azure Synapse Studio.
+
+Data Lake Storage is good for any type of data because it stores unstructured data.
+
+HDInsight is Microsoft’s solution for clustered Hadoop processing of big data.
+
+Azure Databricks is a good solution for modeling data from a data warehouse so that it can be effectively used in ML modeling.
+
+Databricks clusters are made up of notebooks that can store all types of information.
+
+The process of AI decision-making at several points along the neural network is referred to as the ML pipeline.
+
+Azure Machine Learning uses cloud-based resources to train ML models much faster.
+
+The Enterprise edition of Azure Machine Learning offers designers that allow you to build, train, and score ML models in a drag-and-drop interface.
+
+Cognitive Services provide numerous APIs that allow you to quickly develop machine learning solutions.
+
+Azure Bot Service runs on Azure App Service and makes it easy to build powerful AI-driven interaction.
+
+Serverless computing refers to using surplus VMs in Azure to run your code on demand. You pay only for when your code runs.
+
+Azure Functions is the compute component of serverless in Azure.
+
+Azure Logic Apps is a workflow serverless solution that uses connectors, triggers, and actions.
+
+Azure Event Grid makes it possible to raise and handle events as you interact with your Azure resources.
+
+Azure DevOps is an easy way to plan, track, and manage projects and work with teams.
+
+Azure DevTest Labs makes it easy to access ready-made VMs that are configured exactly the way you need them to be.
+
+GitHub is a source code repository and a web portal for working with those repositories.
+
+GitHub Actions allow you to add event-driven workflows to events in GitHub using either preconfigured Actions in the Marketplace or Actions you build with YAML files.
+
+The Azure portal is a web-based interface for interacting with your Azure services. It uses ARM API calls under the hood to talk to Azure Resource Manager.
+
+Azure PowerShell Az is a cross-platform PowerShell module that makes it easy to manage Azure resources in PowerShell.
+
+The Azure CLI is a command line tool that is cross-platform and can be scripted in multiple languages.
+
+Azure Cloud Shell provides command line access to Azure from just about any device.
+
+Cloud Shell persists any files copied to it by using an Azure storage account.
+
+The Azure Mobile app allows you to manage your Azure resources from your iOS or Android device.
+
+Azure Advisor provides best practice recommendations in the area of high availability, security, performance, and cost.
+
+ARM templates are JSON files that can be used to create and modify Azure resources using Azure Resource Manager.
+
+Azure Monitor aggregates metrics for Azure resources. You can create alerts based on those metrics.
+
+Azure Service Health provides information related to incidents in Azure that impact your resources.
