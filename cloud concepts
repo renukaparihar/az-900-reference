@@ -1,0 +1,31 @@
+Cloud providers offer service-level agreements (SLAs) that guarantee a certain level of availability, but only for those systems that are controlled by them.
+
+Moving to the cloud can help avoid downtime caused by network outages, system outages, and power outages. It can also help you if you need to diagnose problems with an application or problems with an external system that your application uses.
+
+You can scale up (or vertically) when you want to add additional CPUs or more memory using a more powerful VM.
+
+You can scale out (or horizontally) if you want to add more VMs to handle additional load.
+
+Cloud providers give you ways to automatically scale based on usage patterns, resource utilization, and times of day. This is referred to as elasticity.
+
+Cloud providers monitor the health of the infrastructure. When a VM becomes unhealthy, the cloud provider can automatically move you to a healthy VM without you having to do anything. This is called fault tolerance.
+
+Cloud providers also operate across multiple data centers that are in different regions of the world. If a natural disaster (or any other disaster) happens in one region, you can switch over to another region, assuming you have replicated your environment in multiple regions. This kind of planning is called Business Continuity and Disaster Recovery planning, and cloud providers often have features in place to make implementing a plan easy. This is often referred to as disaster recovery.
+
+Because you are using infrastructure owned by the cloud provider, moving to the cloud reduces your capital expenses, the major expenses that are incurred for infrastructure and other major purchases. Cloud providers take advantage of the principle of economies of scale by purchasing large amounts of infrastructure to be used by cloud consumers.
+
+Day-to-day expenses (operational expenses) can also be reduced in the cloud because you pay only for those resources you are using at any particular time. This consumption-based model is a key benefit of the cloud.
+
+The cloud pyramid outlines the idea that increased control over your resources means a larger responsibility on your part. Decreased control results in more responsibility on the cloud provider’s part. This concept is called the shared responsibility model.
+
+Infrastructure-as-a-Service (IaaS) offers infrastructure running in the cloud, but you have to maintain the operating system and what’s installed on that infrastructure. IaaS services offer you the most control in the cloud, but they also carry the largest management burden.
+
+Platform-as-a-Service (PaaS) offloads the management of the infrastructure, and it also offloads the operating system and components installed on the VMs to the cloud provider. You are responsible for your application. PaaS services also offer many additional features that make it easy to add functionality to an application without having to write complex code. Development teams also have a wide variety of deployment methods available, and the cloud provider often automates much of that process.
+
+Software-as-a-Service (SaaS) provides a hosted application in the cloud that is most commonly accessed using a web browser. In a SaaS service, the cloud provider manages everything for you. You are essentially renting the use of the software from the cloud provider. A big benefit of SaaS is that it makes applications easily accessible by employees in the field on any device.
+
+The public cloud model is sometimes referred to as a multitenant environment. Multiple companies and users share the same infrastructure. VMs and other infrastructure are allocated to users as they need them, and when they no longer need them, they are returned to the pool to be used by other users. The network is available publicly over the Internet, but you do have the ability to put security methods in place to control access to your resources.
+
+The private cloud model is sometimes referred to as a single-tenant environment. All infrastructure is private to an individual or a company, and the network is only available within the private cloud itself. It is not exposed to the Internet. In many cases, the infrastructure used in a private cloud is owned by the company, but not always. It’s possible to host a private cloud in a third-party data center.
+
+A hybrid cloud model is a mixture of the public and private cloud models. Hybrid clouds are often used when a company needs to use on-premises resources in a cloud application.
