@@ -1,0 +1,94 @@
+THIS SECTION COVERS:
+
+Azure regions and regional pairs
+
+Availability zones
+
+Resource groups
+
+Azure subscriptions
+
+Management groups
+
+Azure Resource Manager (ARM)
+
+###################################### SUMMARY #####################################################################################
+An Azure region is an area within a specific geographical boundary, and each region is typically hundreds of miles apart.
+
+A geography is usually a country, and each geography contains at least two regions.
+
+A datacenter is a physical building within a region, and each datacenter has its own power, cooling supply, water supply, generators, and network.
+
+Round-trip latency between two regions must be no greater than 2ms, and this is why regions are sometimes defined as a “latency boundary.”
+
+Customers should deploy Azure resources to multiple regions to ensure availability.
+
+Availability zones ensure that your resources are deployed into separate datacenters in a region. There are at least three availability zones in every region.
+
+Resource groups allow you to separate Azure resources in a logical way, and you can tag resources for easier management.
+
+All your Azure resources are created within an Azure subscription, and you can create additional subscriptions if you need to group or report on resources more easily.
+
+Azure subscriptions have limits associated with them.
+
+Management groups allow you to assign policies and access control to Azure resources.
+
+Only subscriptions or other management groups can be added to a management group.
+
+Azure Resource Manager (ARM) is how Azure management tools create and manage Azure resources.
+
+ARM uses resource providers to create and manage resources.
+
+An ARM template allows you to ensure consistency of large Azure deployments.
+
+Azure virtual machines are an IaaS offering where you manage the operating system and configuration.
+
+Availability sets protect your VMs with fault domains and update domains. Fault domains protect your VM from a hardware failure in a hardware rack. You are protected from VM reboots by update domains.
+
+Scale sets allow you to set up auto-scale rules to scale horizontally when needed.
+
+Azure App Service makes it easy to host web apps in the cloud because it’s a PaaS service that removes the management burden from the user.
+
+App Service apps run inside of an App Service plan that specifies the number of VMs and the configuration of those VMs.
+
+Containers allow you to create an image of an application and everything needed to run it.
+
+Azure Container Instances (ACI) allow you to run containers for very little cost.
+
+Azure Kubernetes Service (AKS) is a managed service that makes it easy to host Kubernetes clusters in the cloud.
+
+Windows Virtual Desktop makes applications and OSes easily available to multiple users from almost any device.
+
+An Azure virtual network (VNet) allows Azure services to communicate with each other and the Internet.
+
+You can add a public IP address to a VNet for inbound Internet connectivity. This is useful if a website is running in your VNET and you want to allow people to access it.
+
+Azure Load Balancer can distribute traffic from the Internet across multiple VMs in your VNet.
+
+Azure VPN Gateway allows you to establish encrypted connections between Azure VNets and other VNets or on-premises networks. You can configure VNet-to-VNet connections, site-to-site connections, and point-to-site connections.
+
+Virtual network peering connects two Azure VNets to each other without the bandwidth restriction associated with a VNet-to-VNet connection. Peering VNets in different regions is called global virtual network peering.
+
+ExpressRoute allows you to have a high-bandwidth connection to Azure of up to 10 Gbps by connecting to a Microsoft Enterprise Edge (MSEE) router.
+
+Traffic over ExpressRoute does not travel over the Internet.
+
+Azure Blob Storage is a good storage option for unstructured data such as binary files.
+
+If you need to move a large amount of data to Blob Storage, Azure Data Box is a good option. You can have hard drives of numerous sizes shipped to you. Add your data to them and ship them back to Microsoft where they’ll be added to your storage account.
+
+Azure Disk Storage is virtual disk storage for Azure VMs. Managed disks allow you to remove the management burden of disks.
+
+Azure Files allows you to have disk space in the cloud that you can map to a drive on-premises.
+
+Azure Blob Storage offers Hot, Cool, and Archive storage tiers that are based on how long you intend to store the data, how often the data is accessed, and so on.
+
+Azure Cosmos DB is a NoSQL database in the cloud for unstructured data.
+
+Azure SQL Database is a relational database system in the cloud that is completely managed by Microsoft.
+
+Azure Database for MySQL is based on the Community Edition of the open-source MySQL database system. It’s a managed service that removes the burden of management from the user.
+
+Azure Database for PostgreSQL is a managed service for hosting PostgreSQL databases.
+
+The Azure Marketplace is a source of templates for creating Azure resources. Some are provided by Microsoft and some are provided by third parties.
