@@ -1,0 +1,27 @@
+Primary factors that affect costs are the resource type, how you purchase resources, the Azure regions you use, and the billing zone your resources are in.
+
+Azure services are billed according to meters associated with the resource.
+
+Purchasing an Enterprise Agreement or purchasing from a cloud solution partner (CSP) can save you money on Azure services.
+
+Microsoft’s costs vary by region, and yours will, too.
+
+Azure regions are broken out into billing zones, and you’re charged differently based upon the zone.
+
+The pricing calculator helps you to figure out expenses in Azure by providing a cost estimate based on the resources you need.
+
+The total cost of ownership calculator allows you to enter details on your on-premises resources. It then provides an estimate of how much you can save by moving to the cloud.
+
+Azure Cost Management allows you to analyze your costs at a granular level.
+
+Cost Management allows you to create a budget and configure alerts based on that budget.
+
+An SLA is a guarantee from Microsoft for uptime of a service.
+
+SLAs often have configuration requirements that must be met. These are documented on the service’s SLA web page.
+
+A service is only considered outside SLA if an availability problem happens because of something that is within Microsoft’s control.
+
+Preview services are offered in advance of production release and often have no SLA. They’re also usually offered at a discount.
+
+When a service is ready for production use, it’s declared to be generally available and carries an SLA.
