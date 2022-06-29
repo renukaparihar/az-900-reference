@@ -1,0 +1,49 @@
+Authentication is the act of determining who is accessing a resource.
+
+Authorization is the act of enforcing what the authenticated user can and cannot do.
+
+Azure Active Directory is a cloud-based identity service in Azure.
+
+At the core of Azure AD is a directory of users.
+
+Other users can be invited to join your Azure AD.
+
+Guest users are typically outside of your organization and are invited to your Azure AD.
+
+Enterprise applications allow integration of Azure AD with other services and cloud platforms.
+
+Conditional Access policies are applied against users using assignments and access controls.
+
+Multifactor authentication is two-factor authentication that requires you to enter a code in addition to entering your username and password.
+
+Single sign-on allows a user to access company resources without having to re-enter a username and password.
+
+Role-based access control (RBAC) allows you to control how users and applications can interact with your Azure resources.
+
+Azure Policy allows you to define rules that are applied when Azure resources are created and managed.
+
+Resource locks allow you to prevent changes to a resource and to prevent resources from being deleted.
+
+Tags allow you to easily organize your resources by assigning a name and value that can be seen in the Azure portal and on your Azure invoice.
+
+Azure Blueprints allows you to save configurations and resources in a blueprint that can be easily deployed in the future.
+
+Items added to a blueprint are called artifacts. An artifact can be a resource group, an ARM template, a policy assignment, or a role assignment.
+
+The Cloud Adoption Framework for Azure brings together best practices and information from Microsoft employees, partners, and customers to help you adopt the cloud more easily.
+
+The Microsoft privacy statement is a comprehensive statement from Microsoft that outlines how Microsoft uses, handles, and protects your data and personal information.
+
+The Online Service Terms (OST) and Data Protection Addendum (DPA) provide information on the terms of use of Microsoft services and how data can be used with those services.
+
+The Trust Center outlines Microsoft’s approach to security, privacy, and compliance.
+
+Azure compliance documentation covers requirements for regulations around the globe and how Microsoft addresses compliance.
+
+Azure Government is a private cloud for governments that is only accessible by US citizens. It has its own datacenters that are completely separate from the public cloud.
+
+A subset of Azure Government datacenters is approved for Department of Defense usage because they have additional compliance related to DoD Impact Level 5 Provisional Authorization.
+
+Azure Germany datacenters are in a private cloud designed to comply with EU regulations.
+
+Azure China is a separate cloud in China that doesn’t currently offer all Azure services.
